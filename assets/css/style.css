@@ -1,0 +1,204 @@
+body {
+  font-family: "Viga", sans-serif;
+  background-color: white;
+}
+
+h2 {
+  color: #035ba3;
+}
+
+.p, h3 {
+  font-family: "Cormorant", sans-serif;
+}
+
+.navbar {
+  background-color: black;
+}
+
+#hero {
+  background: url(/assets/img/main.jpg) no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  max-height: 800px;
+  min-height: 640px;
+}
+
+@media (max-width: 991px) {
+  #hero {
+    background: white;
+    height: 640px;
+  }
+}
+
+#hero > div > div > div > h1 {
+  font-family: "Viga", sans-serif;
+  text-transform: uppercase;
+  font-size: 10rem;
+  color: #00a54a;
+  margin-top: 200px;
+}
+
+#spacer {
+  height: 10vh;
+  background-color: black;
+}
+
+.underline-B {
+  position: relative;
+}
+
+.underline-B::after {
+  content: '';
+  height: 4px;
+  width: 70%;
+  background: #00a54a;
+  position: absolute;
+  left: 15%;
+  bottom: 20px;
+}
+
+#hero > div > div > div > p {
+  font-family: "Cormorant", sans-serif;
+  font-size: 2em;
+  line-height: 1.15em;
+}
+
+.btn-primary {
+  border-radius: 15px;
+  font-family: "Viga", sans-serif;
+  border: unset;
+  background: #01b0d4;
+  background: linear-gradient(120deg, rgba(1, 176, 212, 0.871884) 0%, rgba(98, 203, 228, 0.908298) 36%, rgba(78, 190, 224, 0.874685) 77%, rgba(0, 146, 198, 0.829867) 100%);
+  -webkit-box-shadow: 0px 10px 10px -3px #7070fa;
+  box-shadow: 0px 10px 10px -3px #0069D5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+  top: 0;
+}
+
+.btn-primary:hover {
+  background-color: #5e5ed1;
+  top: 5px;
+  -webkit-box-shadow: 0px 2px 2px -1px #7070fa;
+  box-shadow: 0px 2px 2px -1px #0069D5;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:focus, .btn-primary:active {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  text-shadow: unset !important;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Viga", sans-serif;
+  color: #00a54a;
+  margin: 100px auto 100px auto;
+}
+
+.card-text {
+  font-family: "Cormorant", sans-serif;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.card {
+  -webkit-box-shadow: 0px 12px 20px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 12px 20px 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  top: 0px;
+  min-height: 300px;
+  margin: 40px 0px 40px 0px;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.5);
+  top: -3px;
+}
+
+.card-title {
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  opacity: 0.1;
+}
+
+.card-text {
+  font-size: 25px;
+}
+
+.card-body {
+  min-height: 450px;
+}
+
+@media (max-width: 1200px) {
+  .card-body {
+    min-height: 525px;
+  }
+}
+
+@media (max-width: 991px) {
+  .card-body {
+    min-height: 150px;
+  }
+}
+
+.featurette {
+  margin: 0;
+}
+
+.lead {
+  font-family: "Cormorant", sans-serif;
+  margin: 0px;
+}
+
+@media (max-width: 1200px) {
+  #hero > div > div > div > h1 {
+    font-size: 100px;
+  }
+}
+
+.featurette-heading {
+  color: #464545;
+}
+
+.featurette-heading-nr {
+  font-size: 4em;
+  color: #035ba3;
+  opacity: 0.5;
+}
+
+h2 > span {
+  color: #757575;
+  font-size: 0.7em;
+}
+
+.lead {
+  margin-bottom: 0px;
+}
+
+body > section:nth-child(12) > div > div > div {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1200px) {
+  body > section:nth-child(12) > div > div > div {
+    min-height: unset;
+  }
+}
+
+hr {
+  margin: 50px 0 50px 0;
+}
+/*# sourceMappingURL=style.css.map */

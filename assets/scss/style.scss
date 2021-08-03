@@ -12,8 +12,8 @@ height: 100vh;
 max-height: 800px;
 min-height: 640px;
 @media (max-width: 991px) {
-        background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(161, 161, 161) 20%, rgba(255,255,255,1) 100%);
+        background: rgb(241, 241, 241);
+background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 30%, rgba(255,255,255,1) 100%);
     }
 }
 

@@ -118,7 +118,13 @@ $(function () {
         $this.addClass("active");
       }
     });
-
+    // clicked on link
+    $("nav li").click(function () {
+        if ($("body").hasClass("offcanvas-menu")) {
+          $("body").removeClass("offcanvas-menu");
+        }
+    });
+    
     // click outisde offcanvas
     $(document).mouseup(function (e) {
       var container = $(".site-mobile-menu");
@@ -132,16 +138,11 @@ $(function () {
   siteMenuClone();
 });
 // smooth scroll
-
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
 	    var target = this.hash;
 	    var $target = $(target);
-	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
-	    }, 1000, 'swing', function () {
-	        // window.location.hash = target;
-	    });
+	    $('html, body').stop().animate({'scrollTop': $target.offset().top},1000,'swing',);
 	});
 });

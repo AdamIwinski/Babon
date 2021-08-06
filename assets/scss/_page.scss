@@ -1,0 +1,31 @@
+#portfolio > div > div > div > h1{
+  color: $primary-color;
+  font-size: 3em;
+}
+
+#portfolio > div > div > div > p{
+  font-family: $paragraph-font;
+  font-size: 2em;
+  color: white;
+}
+// .portfolio-main{
+// position: absolute;
+// }
+
+.shadow{
+  background: rgba(0, 0, 0, 0.623);
+  position: relative;
+  padding: 20px;
+  top: -40%;
+  backdrop-filter: blur(10px);
+}
+
+#portfolio > section:nth-child(3) > div{
+  background: black;
+  padding: 50px;
+  color: white;
+  margin-bottom: 150px;
+}
+button{
+  width:150px;
+}

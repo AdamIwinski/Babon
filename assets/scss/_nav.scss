@@ -36,7 +36,8 @@ a {
   @media (max-width: 991.98px) {
     .site-navbar {
       padding-top: 3rem;
-      padding-bottom: 3rem; } }
+      padding-bottom: 3rem;
+      background-color: unset !important; } }
   .site-navbar .toggle-button {
     position: absolute;
     right: 0px; }
